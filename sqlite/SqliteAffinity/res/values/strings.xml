@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+Copyright (c) 2011 Luke Meyer
+This program is licensed under the MIT license; see LICENSE file for details.
+-->
+
+<resources>
+    <string name="app_name">SqliteAffinity</string>
+
+  <string-array name="dataTypes">
+  <item>String</item>
+  <item>Integer</item>
+  <item>Long</item>
+  <item>Float</item>
+  <item>Double</item>
+  </string-array>
+
+</resources>

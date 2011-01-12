@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+Copyright (c) 2011 Luke Meyer
+This program is licensed under the MIT license; see LICENSE file for details.
+-->
+
+ <LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+>
+  <LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+  >
+    <EditText
+      android:id="@+id/input"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:hint="Value to store in DB"
+      android:lines="1"
+      android:inputType="textShortMessage"
+      android:layout_weight="1" />
+    <Button
+      android:id="@+id/go"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_weight="0"
+      android:text="Go" />
+  </LinearLayout>
+  <LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+  >
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_weight="0"
+      android:text="Store as:"
+      android:layout_marginLeft="5dip"
+      android:layout_marginRight="5dip" />
+    <Spinner
+      android:id="@+id/inDataType"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"
+      android:entries="@array/dataTypes" />
+  </LinearLayout>
+  <LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+  >
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_weight="0"
+      android:text="Retrieve as:"
+      android:layout_marginLeft="5dip"
+      android:layout_marginRight="5dip" />
+    <Spinner
+      android:id="@+id/outDataType"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"
+      android:entries="@array/dataTypes" />
+  </LinearLayout>
+  <TableLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+  >
+    <TableRow>
+      <TextView
+        android:text="Column type:"
+        android:textStyle="bold"
+        android:layout_marginRight="10dip"
+         />
+      <TextView
+        android:text="Retrieved value:"
+        android:textStyle="bold"
+        />
+    </TableRow>
+    <TableRow>
+      <TextView
+        android:text="textVal:" />
+      <TextView
+        android:id="@+id/textVal" />
+    </TableRow>
+    <TableRow>
+      <TextView
+        android:text="numericVal:" />
+      <TextView
+        android:id="@+id/numericVal" />
+    </TableRow>
+    <TableRow>
+      <TextView
+        android:text="intVal:" />
+      <TextView
+        android:id="@+id/intVal" />
+    </TableRow>
+    <TableRow>
+      <TextView
+        android:text="realVal:" />
+      <TextView
+        android:id="@+id/realVal" />
+    </TableRow>
+    <TableRow>
+      <TextView
+        android:text="noneVal:" />
+      <TextView
+        android:id="@+id/noneVal" />
+    </TableRow>
+  </TableLayout>
+
+</LinearLayout>

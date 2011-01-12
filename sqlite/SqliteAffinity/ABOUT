@@ -1,0 +1,22 @@
+This is an example of how data is affected by storage in a Sqlite DB.
+As such it's not really unique to Android, but it's the DB folks are
+likely to be using on Android, and also serves as a demo of DB usage.
+
+For a detailed discussion of how Sqlite stores values, see:
+http://www.sqlite.org/datatype3.html
+
+The most interesting thing is that the same column can store different
+data types depending on what you're trying to store.
+I created this project mainly to study how numbers are converted based
+on how they are stored and retrieved in the various column types.
+
+The program takes user input, tries to convert it into the Java type
+specified, stores that type into one of each type of column in a DB,
+and then retrieves it as the second Java type specified.
+
+A few interesting results:
+
+* 1.00 -> String -> numeric -> String -> 1
+* 1.23456789 -> String -> numeric -> String -> 1.23457
+* 123456789 -> Double -> numeric -> String -> 123456789
+
