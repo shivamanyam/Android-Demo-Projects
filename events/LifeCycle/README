@@ -1,0 +1,12 @@
+This is a really simple project to demonstrate the basic
+Activity lifecycle events. Each time one is called against
+the Main activity, a log message is written and displayed
+in a toast.
+
+It's interesting to watch what happens when you transition
+between the activities. Notice the difference between a
+transition to a normal activity vs. the translucent one:
+with the translucent one, onStop isn't called on Main.
+Also notice what happens when you make an orientation
+change - full lifecycle, including the onRestoreInstanceState
+event (only time I've seen it).
