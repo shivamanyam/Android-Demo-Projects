@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+>
+  <include
+    layout="@layout/w_static_header"
+    android:id="@+id/static_header"
+    android:layout_alignParentTop="true" />
+  <include
+    layout="@layout/w_static_footer"
+    android:id="@+id/static_footer"
+    android:layout_alignParentBottom="true" />
+  <ListView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@android:id/list"
+    android:layout_below="@id/static_header"
+    android:layout_above="@id/static_footer" />
+  <TextView
+    android:id="@android:id/empty"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="This is the empty element" />
+
+</RelativeLayout>

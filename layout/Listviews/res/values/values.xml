@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">ListViews</string>
+  <string name="ok_button">OK</string>
+  <string name="choose_layout">Please choose a base layout</string>
+  <string-array name="layout">
+    <item>Plain</item>
+    <item>Linear Layout, Static Header</item>
+    <item>Linear Layout, Static Footer</item>
+    <item>Naive LL + Static Header + Footer</item>
+    <item>LL + Static Header and Footer</item>
+    <item>Naive Relative Layout, Static Header and Footer</item>
+    <item>Relative Layout, Static Header and Footer</item>
+  </string-array>
+  <string name="choose_size">Please choose the number of items in the list</string>
+  <string-array name="size">
+    <item>0</item>
+    <item>1</item>
+    <item>3</item>
+    <item>10</item>
+  </string-array>
+  <string name="choose_scrolling_header">Please choose the type of scrolling list header</string>
+  <string-array name="scrolling_header">
+    <item>None</item>
+    <item>Plain</item>
+    <item>With button</item>
+    <item>With text editor</item>
+    <item>With text editor and button</item>
+  </string-array>
+  <string name="choose_scrolling_footer">Please choose the type of scrolling list footer</string>
+  <string-array name="scrolling_footer">
+    <item>None</item>
+    <item>Plain</item>
+    <item>With button</item>
+    <item>With text editor</item>
+    <item>With text editor and button</item>
+  </string-array>
+
+  <string name="choose_events">Please choose the events to enable</string>
+  <string-array name="events">
+    <item>List item click</item>
+    <item>List item button click</item>
+    <item>List item long click</item>
+    <item>List item context menu</item>
+    <item>Header/footer click</item>
+    <item>Header/footer button click</item>
+    <item>Header/footer long click</item>
+    <item>Header/footer context menu</item>
+  </string-array>
+
+  <string name="choose_strategy">Please choose the strategies to enable focus/select</string>
+  <string-array name="strategy">
+    <item>setItemsCanFocus method</item>
+    <item>ItemSelected listener for sub-element focus</item>
+  </string-array>
+
+
+  <string-array name="size_0">
+  </string-array>
+  <string-array name="size_1">
+    <item>1</item>
+  </string-array>
+  <string-array name="size_3">
+    <item>1</item>
+    <item>2</item>
+    <item>3</item>
+  </string-array>
+  <string-array name="size_10">
+    <item>1</item>
+    <item>2</item>
+    <item>3</item>
+    <item>4</item>
+    <item>5</item>
+    <item>6</item>
+    <item>7</item>
+    <item>8</item>
+    <item>9</item>
+    <item>10</item>
+  </string-array>
+  <string-array name="values">
+  <item>0</item>
+  <item>1</item>
+  <item>2</item>
+  <item>3</item>
+  <item>4</item>
+  <item>5</item>
+  <item>6</item>
+  <item>7</item>
+  <item>8</item>
+  <item>9</item>
+  <item>10</item>
+  <item>11</item>
+  <item>12</item>
+  <item>13</item>
+  <item>14</item>
+  <item>15</item>
+  <item>16</item>
+  <item>17</item>
+  <item>18</item>
+  <item>19</item>
+   </string-array>
+</resources>

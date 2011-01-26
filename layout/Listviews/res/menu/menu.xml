@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:id="@+id/layout"
+  android:title="Layout options"
+  android:titleCondensed="Layout"
+  />
+  <item android:id="@+id/size"
+  android:title="Number of elements"
+  android:titleCondensed="Size"
+  />
+  <item android:id="@+id/scrolling_header"
+  android:title="Scrolling header"
+  android:titleCondensed="Header"
+  />
+  <item android:id="@+id/scrolling_footer"
+  android:title="Scrolling footer"
+  android:titleCondensed="Footer"
+  />
+  <item android:id="@+id/events"
+  android:title="Enable events"
+  android:titleCondensed="Events"
+  />
+  <item android:id="@+id/strategies"
+  android:title="Enable strategies"
+  android:titleCondensed="Strategies"
+  />
+</menu>

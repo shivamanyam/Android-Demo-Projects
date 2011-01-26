@@ -1,0 +1,16 @@
+This is an Android code project created in order to explore some of the
+aspects of using a ListView/ListActivity to display items in a list,
+possibly with header(s) and footer(s) and various possible events tied
+to different parts of the layout. It may evolve as I find new things
+to tinker with.
+
+Some assumptions:
+1. I want everything to work under Android 1.5 (Cupcake) and up. This
+platform still holds significant (though diminishing) market share.
+2. I'm trying to work with ListView and Android in general as much as
+possible, not re-create everything with custom views or use
+un-documented APIs.
+3. I want this code to be useful for others to figure out how to use
+ListView as I'm doing. It should be easy to read, understand, and
+re-use.
+
