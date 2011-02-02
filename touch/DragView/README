@@ -1,0 +1,9 @@
+This example is the result of my investigation into how to get views on an Android screen that a user can move 
+by touching them and dragging them. It is based on the Android Launcher code. The Launcher is the code that 
+manages the workspace you see on your Android phone. Besides being able to launch apps, it allows you to change 
+the layout of icons on the screen. That's what is in this example.
+
+For more information about this example and how it works, read the following blog article:
+http://blahti.wordpress.com/2011/01/17/moving-views-part-2/
+
+
