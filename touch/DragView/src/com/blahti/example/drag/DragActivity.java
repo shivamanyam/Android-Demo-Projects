@@ -1,4 +1,6 @@
-package com.example;
+package com.blahti.example.drag;
+
+import com.blahti.example.drag.R;
 
 import android.app.Activity;
 import android.os.Bundle;

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.example.DragLayer
+<com.blahti.example.drag.DragLayer
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:launcher="http://schemas.android.com/apk/res/com.android.launcher"
 
@@ -28,4 +28,4 @@
     android:layout_width="50px"
     android:layout_height="80px" />
 
-</com.example.DragLayer>
+</com.blahti.example.drag.DragLayer>

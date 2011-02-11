@@ -17,7 +17,7 @@
  * limitations under the License.
  */
 
-package com.example;
+package com.blahti.example.drag;
 
 import android.view.View;
 
