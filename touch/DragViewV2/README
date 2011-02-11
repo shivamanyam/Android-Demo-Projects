@@ -1,0 +1,5 @@
+This example is a continuation of the DragView example. The first example was primarily about the drag part of drag-drop. This second example covers the drop part with the addition of drop zones on the screen,
+
+For more information about this example and how it works, read the following blog article:
+http://blahti.wordpress.com/2011/02/10/moving-views-part-3/
+
